@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819560064723",
+    "project_id": "ngo-app-3ccdf",
+    "storage_bucket": "ngo-app-3ccdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819560064723:android:3c2c712753c4aaf0211626",
+        "android_client_info": {
+          "package_name": "com.ovibo.ngo.ngo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4zspBVyVfN4w5iswhjRs82H8J15p_6w8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

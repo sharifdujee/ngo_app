@@ -1,8 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:ngo_app/document_upload/bar_code_scanner.dart';
+import 'package:ngo_app/document_upload/document_scan.dart';
 import 'package:ngo_app/firebase_options.dart';
-import 'package:ngo_app/social_media_auth/google_auth.dart';
 import 'package:ngo_app/test_screen/data_test.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SignInDemo(),
+      home: const DataTestScreen(),
     );
   }
 }

@@ -5,12 +5,14 @@ class FirebaseApi{
 
   static Future<void> saveData({
     required String userName,
-    required String password,
+    required String phoneNumber,
+    required String district,
 })async{
     FirebaseFirestore firebaseFireStore = FirebaseFirestore.instance;
-    await firebaseFireStore.collection('test').add({
+    await firebaseFireStore.collection('signUp').add({
       'userName': userName,
-      'password': password
+      'password': phoneNumber,
+      'district': district
 
     });
 

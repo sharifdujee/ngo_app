@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "819560064723",
+    "firebase_url": "https://ngo-app-3ccdf-default-rtdb.firebaseio.com",
     "project_id": "ngo-app-3ccdf",
     "storage_bucket": "ngo-app-3ccdf.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.ovibo.ngo.ngo_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "819560064723-9tstr6a51t1k893dpedgkh4osrv3g2d0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ovibo.ngo.ngo_app",
+            "certificate_hash": "8f345a76605b87095db66bed32e1cc5bec5f15da"
+          }
+        },
+        {
+          "client_id": "819560064723-20kn1tdajh8q2epvqmcj5cocu3ghi0c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC4zspBVyVfN4w5iswhjRs82H8J15p_6w8"
@@ -20,7 +34,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819560064723-20kn1tdajh8q2epvqmcj5cocu3ghi0c0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "819560064723-q58e3h64hh2e58m3on2r8v8lrb6t2bq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ovibo.ngo.ngoApp"
+              }
+            }
+          ]
         }
       }
     }
